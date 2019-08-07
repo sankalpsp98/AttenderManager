@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sankalp.attendermanager.attendermanager">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".studentReportMoreInfo"
+            android:label="@string/title_activity_student_report_more_info"
+            android:theme="@style/AppTheme.NoActionBar.NoActionBar"></activity>
+        <activity
+            android:name=".StudentAttendenceViewMode"
+            android:label="@string/title_activity_student_attendence_view_mode"
+            android:theme="@style/AppTheme.NoActionBar.NoActionBar" />
+        <activity android:name=".no_internet_alert" />
+        <activity
+            android:name=".PieChart"
+            android:label="@string/title_activity_pie_chart"
+            android:theme="@style/AppTheme.NoActionBar.NoActionBar" />
+        <activity android:name=".PdfGeneration" />
+        <activity
+            android:name=".studentLectureAttended"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".Blacklist"
+            android:label="@string/title_activity_blacklist"
+            android:theme="@style/MonthPickerDialogStyle" />
+        <activity
+            android:name=".profileSubject"
+            android:label="@string/title_activity_profile_subject"
+            android:theme="@style/AppTheme.NoActionBar.NoActionBar" />
+        <activity
+            android:name=".SubjectSelection"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".QRGen"
+            android:label="@string/title_activity_qrgen"
+            android:theme="@style/MonthPickerDialogStyle">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".QR"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".AfterLogin"
+            android:label="@string/title_activity_after_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".xlsUpload"
+            android:label="@string/title_activity_xls_upload"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FileUploadDownload"
+            android:label="@string/title_activity_file_upload_download"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".uploadDetails"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".timeTableUI"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".CollTechRegistration"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".collegeVerification"
+            android:label="@string/title_activity_college_verification"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".departmentSelection"
+            android:label="@string/title_activity_department_selection"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ssss1"
+            android:label="@string/title_activity_ssss1" />
+        <activity
+            android:name=".StudentAttendence"
+            android:label="@string/title_activity_student_attendence"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HodTeacher"
+            android:label="@string/title_activity_hod_teacher"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".hodSelection"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity android:name=".HodOtp" />
+        <activity
+            android:name=".hod_Management"
+            android:label="@string/title_activity_hod__management"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

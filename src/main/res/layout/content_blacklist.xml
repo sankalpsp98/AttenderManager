@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Blacklist"
+    android:background="#ffffff"
+    android:padding="10dp"
+    tools:showIn="@layout/activity_blacklist">
+
+
+    <com.andanhm.quantitypicker.QuantityPicker xmlns:app="http://schemas.android.com/apk/res-auto/"
+        android:id="@+id/quantityPicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="76dp"
+        app:buttonColor="@color/colorAccent"
+        app:quantityColor="@color/colorPrimary"
+        app:textStyle="bold" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="173dp"
+        android:layout_height="150dp"
+
+
+        android:layout_above="@+id/b1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="113dp"
+        android:layout_marginLeft="113dp"
+        android:layout_marginEnd="154dp"
+        android:layout_marginRight="154dp"
+        android:layout_marginBottom="59dp"
+        app:lottie_fileName="stud.json" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="4dp"
+        android:textAllCaps="false"
+        android:layout_alignParentStart="true"
+
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="272dp"
+        android:background="@drawable/button_selector_effect"
+        android:text="Subject 1"
+        android:textColor="#000" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginEnd="211dp"
+        android:layout_marginRight="211dp"
+        android:layout_marginBottom="205dp"
+        android:background="@drawable/button_selector_effect"
+        android:textAllCaps="false"
+        android:text="Subject 3"
+        android:textColor="#000" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentLeft="true"
+        android:textAllCaps="false"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="211dp"
+        android:layout_marginLeft="211dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="272dp"
+        android:background="@drawable/button_selector_effect"
+        android:text="Subject 2"
+        android:textColor="#000" />
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="203dp"
+        android:background="@drawable/button_selector_effect"
+        android:padding="6dp"
+        android:text="Subject 4"
+        android:textAllCaps="false"
+        android:textColor="#000" />
+
+    <Button
+        android:id="@+id/b5"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="147dp"
+        android:background="@drawable/button_selector_effect"
+        android:padding="6dp"
+        android:textAllCaps="false"
+        android:text="Subject 5"
+        android:textColor="#000" />
+
+    <Button
+        android:id="@+id/b6"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="211dp"
+        android:layout_marginLeft="211dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="148dp"
+        android:textAllCaps="false"
+        android:background="@drawable/button_selector_effect"
+        android:padding="6dp"
+        android:text="Overall"
+        android:textColor="#000" />
+
+
+</RelativeLayout>

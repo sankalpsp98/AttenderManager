@@ -1,0 +1,189 @@
+{
+  "project_info": {
+    "project_number": "904112809842",
+    "firebase_url": "https://attender-491df.firebaseio.com",
+    "project_id": "attender-491df",
+    "storage_bucket": "attender-491df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904112809842:android:e3be172998a17723",
+        "android_client_info": {
+          "package_name": "com.sankalp.attender.attender"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904112809842-d8e38pav9e1jb6r3oin0c157s6sa5ujj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sankalp.attender.attender",
+            "certificate_hash": "e61f0057a45cfbb0e95c64e73d2cdfe768d19287"
+          }
+        },
+        {
+          "client_id": "904112809842-qr3eigg3ieoeub4krksu9966i9c46lsf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sankalp.attender.attender",
+            "certificate_hash": "3a2c2170707d3b2153343f0f311055f99435663b"
+          }
+        },
+        {
+          "client_id": "904112809842-ho6u0vobbc58n0932j2ho7tn6bm5hp4j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sankalp.attender.attender",
+            "certificate_hash": "74644c805e9c1fee4d8295795277ca61a2c38d06"
+          }
+        },
+        {
+          "client_id": "904112809842-na5tfl4f5d5sv1vkbog84h48frd6pc1r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sankalp.attender.attender",
+            "certificate_hash": "940362ffab0429404dfe752e7842a738eb9a3635"
+          }
+        },
+        {
+          "client_id": "904112809842-tlkpa1d6291iq25231hbdtefm9vdgo8i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sankalp.attender.attender",
+            "certificate_hash": "bb4321e0786537f8a1258d8a151ddfb384a8214d"
+          }
+        },
+        {
+          "client_id": "904112809842-eojsbg11slvmbjdl275ivbire383na1t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sankalp.attender.attender",
+            "certificate_hash": "90d0d3e4612647581e6c7f03706b5a96a3c44639"
+          }
+        },
+        {
+          "client_id": "904112809842-6ar43s4kiq5cm2upc866hnb0dr86sqrj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sankalp.attender.attender",
+            "certificate_hash": "b0d1cfa32a3fc65fed3eda42c7547cf14f926046"
+          }
+        },
+        {
+          "client_id": "904112809842-drobjjmpv4e4ggp14mug1ce8k2slgnv5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTpKhe80JKwEuMTpZKKqZMRZLTckZ2WzU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904112809842-drobjjmpv4e4ggp14mug1ce8k2slgnv5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904112809842:android:07072e517a0f9e5d",
+        "android_client_info": {
+          "package_name": "com.sankalp.attendermanager.attendermanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904112809842-g5dfu3b004ib2uq2ept72qoa5m6nb3kf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sankalp.attendermanager.attendermanager",
+            "certificate_hash": "940362ffab0429404dfe752e7842a738eb9a3635"
+          }
+        },
+        {
+          "client_id": "904112809842-8ls7pc4cpjrnikhmdv2sf5dgbckc4uqm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sankalp.attendermanager.attendermanager",
+            "certificate_hash": "3a2c2170707d3b2153343f0f311055f99435663b"
+          }
+        },
+        {
+          "client_id": "904112809842-ssc1c0bp06k5oc6k68vce84htsbl1km2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sankalp.attendermanager.attendermanager",
+            "certificate_hash": "e61f0057a45cfbb0e95c64e73d2cdfe768d19287"
+          }
+        },
+        {
+          "client_id": "904112809842-j891lcdp2pq2070o22rhect1kdcig1e2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sankalp.attendermanager.attendermanager",
+            "certificate_hash": "74644c805e9c1fee4d8295795277ca61a2c38d06"
+          }
+        },
+        {
+          "client_id": "904112809842-5517glmf2cv3k6a4uqr1mok0f0fv5ru3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sankalp.attendermanager.attendermanager",
+            "certificate_hash": "bb4321e0786537f8a1258d8a151ddfb384a8214d"
+          }
+        },
+        {
+          "client_id": "904112809842-j8ecai4vsmb26qhovfahl1npjj1rgtk2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sankalp.attendermanager.attendermanager",
+            "certificate_hash": "90d0d3e4612647581e6c7f03706b5a96a3c44639"
+          }
+        },
+        {
+          "client_id": "904112809842-mvpbn611pf2hm0opuejn0a3pof0ohkhv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sankalp.attendermanager.attendermanager",
+            "certificate_hash": "b0d1cfa32a3fc65fed3eda42c7547cf14f926046"
+          }
+        },
+        {
+          "client_id": "904112809842-v7o2o2vko8h62m8c1l872fins7cdft69.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sankalp.attendermanager.attendermanager",
+            "certificate_hash": "b07df342c63abd00fc89cc8d171b9fd3d80beeba"
+          }
+        },
+        {
+          "client_id": "904112809842-drobjjmpv4e4ggp14mug1ce8k2slgnv5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTpKhe80JKwEuMTpZKKqZMRZLTckZ2WzU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904112809842-drobjjmpv4e4ggp14mug1ce8k2slgnv5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
