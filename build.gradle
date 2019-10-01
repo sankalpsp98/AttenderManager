@@ -2,16 +2,6 @@ apply plugin: 'com.android.application'
 
 android {
 
-    signingConfigs {
-        config {
-            storeFile file('S:\\pass\\sankalpkeystore.jks')
-            storePassword 'shraddha@98'
-            keyAlias = 'sankalpnew'
-            storePassword 'shraddha@98'
-            keyPassword 'shraddha@98'
-            keyPassword 'shraddha@98'
-        }
-    }
     compileSdkVersion 27
     defaultConfig {
         applicationId "com.sankalp.attendermanager.attendermanager"
@@ -28,6 +18,7 @@ android {
 
         checkReleaseBuilds false
 
+
     }
     buildTypes {
         release {
@@ -35,7 +26,7 @@ android {
             shrinkResources false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             debuggable = true
-            signingConfig signingConfigs.config
+          //  signingConfig signingConfigs.config
 
         }
 

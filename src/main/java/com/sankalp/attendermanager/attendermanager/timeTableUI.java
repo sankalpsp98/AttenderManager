@@ -3,13 +3,13 @@ package com.sankalp.attendermanager.attendermanager;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
+import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -39,18 +39,18 @@ import com.google.firebase.database.ValueEventListener;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.Locale;
 
 public class timeTableUI extends AppCompatActivity {
     RecyclerView recyclerView;
     DatabaseReference  databaseReference;
     Query query ;
     FirebaseRecyclerOptions firebaseRecyclerOptions;
+    dataWire dataWire1 = new dataWire();
     FirebaseRecyclerAdapter<dataSubjectReciver,timeTableUI.subjectView> firebaseRecyclerAdapter;
 
-    dataWire dataWire1 = new dataWire();
     private  String faculty = dataWire1.getFaculty1();
-    private  String acdyear = dataWire1.getYear1().toLowerCase();
+    private  String acdyear = dataWire1.getYear1().toLowerCase()
+            ;
     private  String sem = dataWire1.getSem1();
     private  String sub = dataWire1.getSubject();
     private  String div = dataWire1.getDiv1();

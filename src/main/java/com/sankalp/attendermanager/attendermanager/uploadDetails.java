@@ -105,7 +105,7 @@ public class uploadDetails extends Activity {
 
 
 
-        DatabaseReference college = FirebaseDatabase.getInstance().getReferenceFromUrl("https://attender-491df.firebaseio.com/users/teachers/" + user.getUid());
+        final DatabaseReference college = FirebaseDatabase.getInstance().getReferenceFromUrl("https://attender-491df.firebaseio.com/users/teachers/" + user.getUid());
         college.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -120,7 +120,7 @@ public class uploadDetails extends Activity {
                     techerData =FirebaseDatabase.getInstance().getReferenceFromUrl("https://attender-491df.firebaseio.com/colleges/"+collegeS+"/department");
                 }else
                 {
-                    techerData = FirebaseDatabase.getInstance().getReferenceFromUrl("https://attender-491df.firebaseio.com/users/teachers/" + user.getUid()+"/faculty");
+                    techerData = FirebaseDatabase.getInstance().getReferenceFromUrl("https://attender-491df.firebaseio.com/users/teachers/" + user.getUid()+"/colleges/"+collegeS+"/faculty");
                 }
                 techerData.addChildEventListener(new ChildEventListener() {
                     @Override

@@ -331,7 +331,8 @@ public class QRGen extends AppCompatActivity
                             .setAction("Action", null).show();
 
                     Log.d("path<<<>>>>", " datachecker " + Faculty + " " + selectedYear + " " + selectedSem + " " + selectedDiv);
-                    Toast.makeText(QRGen.this, "" + ch, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(QRGen.this, "ok >> " +
+                            "" + ch, Toast.LENGTH_SHORT).show();
                     if (ch.equals("null")) {
                         Intent intent =new Intent(getApplicationContext(), timeTableUI.class);
                         intent.putExtra("From_activity","simple");

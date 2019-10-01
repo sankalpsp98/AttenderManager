@@ -31,7 +31,7 @@ public class SubjectSelection extends AppCompatActivity {
 
     dataWire dataWire1 = new dataWire();
     private String faculty = dataWire1.getFaculty1();
-    private  String acdyear = dataWire1.getYear1().toLowerCase();
+   private  String acdyear = dataWire1.getYear1();
     private  String sem = dataWire1.getSem1();
     private  String sub = dataWire1.getSubject();
     private  String div = dataWire1.getDiv1();
@@ -40,6 +40,9 @@ public class SubjectSelection extends AppCompatActivity {
     private String thisYear;
     private int thisMonth;
     private int thisDate;
+    
+
+
 
     private final ArrayList<String> arrayList= new ArrayList<>();
     private ArrayAdapter<String> arrayAdapter;
@@ -58,6 +61,7 @@ public class SubjectSelection extends AppCompatActivity {
         Calendar calendar = Calendar.getInstance();
 
         thisYearINT = calendar.get(Calendar.YEAR);
+
 
         //tempyear =thisYearINT+1;
         //thisYear= String.valueOf(thisYearINT+"-"+tempyear);
@@ -87,7 +91,7 @@ public class SubjectSelection extends AppCompatActivity {
 
         }
 
-        final DatabaseReference subSel= FirebaseDatabase.getInstance().getReferenceFromUrl("https://attender-491df.firebaseio.com/colleges/"+CollName+"/department/"+faculty+"/"+thisYear+"/"+acdyear+"/subject/"+sem);
+        final DatabaseReference subSel= FirebaseDatabase.getInstance().getReferenceFromUrl("https://attender-491df.firebaseio.com/colleges/"+CollName+"/department/"+faculty+"/"+thisYear+"/"+acdyear.toLowerCase()+"/subject/"+sem);
 
 
         Log.d("sasasa", dataWire.getCollege() + "");
@@ -109,7 +113,7 @@ public class SubjectSelection extends AppCompatActivity {
                 alert.setPositiveButton("OK", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        DatabaseReference timetableStore=FirebaseDatabase.getInstance().getReferenceFromUrl("https://attender-491df.firebaseio.com/colleges/"+CollName+"/department/"+faculty+"/"+thisYear+"/"+acdyear+"/TimeTable/"+thisMonth+"-"+thisDate+"/"+div+"/"+lecture);
+                        DatabaseReference timetableStore=FirebaseDatabase.getInstance().getReferenceFromUrl("https://attender-491df.firebaseio.com/colleges/"+CollName+"/department/"+faculty+"/"+thisYear+"/"+acdyear.toLowerCase()+"/TimeTable/"+thisMonth+"-"+thisDate+"/"+div+"/"+lecture);
 
                         dataWire1.setSubject(String.valueOf(parent.getItemAtPosition(position)));
                         timetableStore.child("subNameStamp").setValue(parent.getItemAtPosition(position));
