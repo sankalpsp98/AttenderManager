@@ -57,15 +57,6 @@ public class AfterLogin extends AppCompatActivity {
         // editText2.setNextFocusDownId(editText3.getId());
 
 
-
-
-
-
-
-
-
-
-
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -83,7 +74,6 @@ public class AfterLogin extends AppCompatActivity {
                 LinkCollege(colCode1,facCode1);
 
                 startActivity(new Intent(AfterLogin.this,xlsUpload.class));
-
 
             }
         });
