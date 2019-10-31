@@ -123,7 +123,10 @@ public class QRGen extends AppCompatActivity
                 public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                     String collegeName = dataSnapshot.child("college").getValue().toString();
                     dataWire.setCollege(collegeName);
+                    Log.e("college " ,collegeName);
                     facList   = user1.child("colleges").child(dataWire.getCollege()).child("faculty");
+
+                    Log.e("college fact" ,facList+"");
                     collegeNameSwitch.setText(collegeName);
                     if (facList != null) {
                 /*teacherColl.addValueEventListener(new ValueEventListener() {
